@@ -1,7 +1,27 @@
 aid: piersight-space
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/piersight-space.png
 name: PierSight Space
-description: PierSight Space is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PierSight Space is an India-based space technology company building a constellation
+  of Synthetic Aperture Radar (SAR) and Automatic Identification System (AIS) satellites
+  for persistent, all-weather maritime surveillance of the world's oceans. Founded by
+  former ISRO engineer Gaurav Seth, PierSight delivers near-real-time ocean monitoring
+  (targeting ~30-minute data latency and 100% ocean coverage) to detect illegal, unreported
+  and unregulated (IUU) fishing, monitor oil spills, protect Exclusive Economic Zones,
+  support maritime insurance risk assessment, and improve shipping operations. The company
+  has raised roughly $8M from investors including Alpha Wave Ventures, Elevation Capital,
+  and Techstars. As of this enrichment pass PierSight sells data solutions to enterprise
+  and government clients and does not publish a public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/piersight-space/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Satellite
+- Space
+- Maritime
+- Earth Observation
+- Synthetic Aperture Radar
+- Geospatial
+- Surveillance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/piersight-space-domain-security.yml
 - type: Website
   url: https://piersight.space/
+- type: Blog
+  url: https://piersight.space/blog
+- type: Support
+  url: https://piersight.space/contact-us
+- type: PrivacyPolicy
+  url: https://piersight.space/privacy-policy
+- type: TermsOfService
+  url: https://piersight.space/terms-of-use
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
